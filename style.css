@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+/* .pf-fixed{
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+} */
+.img-fluid{
+    width: 50px;
+    height: auto;
+}
+.color{
+    color: tomato;
+}
+.custom{
+    cursor: pointer;
+}
+.btn{
+    background-color: #FFA500;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-1{
+    background-color: tomato;
+    color: white;
+}
+.social-link{
+    cursor: pointer;
+}
+.img-customize{
+    width: 80%;
+    height: auto;
+}
+.hablu{
+    cursor: pointer;
+    font-weight: bold;
+}
+.intro{
+    font-weight: bold;
+}
+.clickable{
+    cursor: pointer;
+}
+.clickable:hover{
+    color: rgb(0, 172, 252);
+}
+.highlight{
+    color: rgb(252, 66, 66);
+}
